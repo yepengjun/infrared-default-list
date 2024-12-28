@@ -12,7 +12,7 @@ const schema = getFile('schema/gauge-list-schema.json')
 const validateGaugeList = async ({ network }: { network: string }) => {
   const errors: Array<string> = []
   const list: GaugeListSchema = getListFile({
-    listPath: `src/gauges/${network}/defaultGaugeList.json`,
+    listPath: `src/gauges/${network}.json`,
     network,
   })
 
@@ -21,5 +21,5 @@ const validateGaugeList = async ({ network }: { network: string }) => {
 }
 
 readdirSync('src/gauges').forEach(async (network) => {
-  await validateGaugeList({ network })
+  await validateGaugeList({ network: network.replace('.json', '') })
 })
