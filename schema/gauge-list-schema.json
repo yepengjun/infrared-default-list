@@ -13,7 +13,6 @@
             "type": "string"
           },
           "mintUrl": { "format": "uri", "type": "string" },
-          "name": { "type": "string" },
           "protocol": { "type": "string" },
           "types": {
             "items": { "type": "string" },
@@ -28,7 +27,6 @@
           "beraRewardsVault",
           "lpTokenAddress",
           "mintUrl",
-          "name",
           "protocol",
           "types",
           "underlyingTokens"

@@ -43,7 +43,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "beraRewardsVault": "0x...",
      "lpTokenAddress": "0x...",
      "mintUrl": "https://your-protocol-url.com/provide-liquidity",
-     "name": "Your Gauge Name",
      "protocol": "your_protocol_id",
      "types": ["type1", "type2"],
      "underlyingTokens": ["0x...", "0x..."]
@@ -76,10 +75,8 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```json
    {
      "address": "0x...",
-     "chainId": 80084,
      "decimals": 18,
      "image": "your-token-image.svg",
-     "name": "Your Token Name",
      "symbol": "XYZ",
      "tags": ["tag1", "tag2"]
    }
