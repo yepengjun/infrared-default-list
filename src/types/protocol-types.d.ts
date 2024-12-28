@@ -13,11 +13,5 @@ export interface ProtocolTypesSchema {
       [k: string]: unknown
     }
   }
-  version: {
-    major: number
-    minor: number
-    patch: number
-    [k: string]: unknown
-  }
   [k: string]: unknown
 }

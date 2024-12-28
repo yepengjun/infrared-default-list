@@ -16,11 +16,5 @@ export interface GaugeListSchema {
     underlyingTokens: string[]
     [k: string]: unknown
   }[]
-  version: {
-    major: number
-    minor: number
-    patch: number
-    [k: string]: unknown
-  }
   [k: string]: unknown
 }

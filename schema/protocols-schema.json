@@ -14,17 +14,8 @@
         "type": "object"
       },
       "type": "array"
-    },
-    "version": {
-      "properties": {
-        "major": { "type": "integer" },
-        "minor": { "type": "integer" },
-        "patch": { "type": "integer" }
-      },
-      "required": ["major", "minor", "patch"],
-      "type": "object"
     }
   },
-  "required": ["protocols", "version"],
+  "required": ["protocols"],
   "type": "object"
 }

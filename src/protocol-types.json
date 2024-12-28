@@ -16,10 +16,5 @@
       "description": "Tokens that were minted to provide liquidity to vault with a yield farming strategy",
       "name": "Vault Token"
     }
-  },
-  "version": {
-    "major": 1,
-    "minor": 0,
-    "patch": 0
   }
 }
