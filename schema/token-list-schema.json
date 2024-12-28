@@ -45,6 +45,6 @@
       "type": "object"
     }
   },
-  "required": ["keywords", "name", "tags", "tokens", "version"],
+  "required": ["tokens", "version"],
   "type": "object"
 }

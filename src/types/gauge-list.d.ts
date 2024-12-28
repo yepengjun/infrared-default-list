@@ -16,22 +16,6 @@ export interface GaugeListSchema {
     underlyingTokens: string[]
     [k: string]: unknown
   }[]
-  name: string
-  protocols: {
-    description: string
-    id: string
-    image: string
-    name: string
-    url: string
-    [k: string]: unknown
-  }[]
-  types: {
-    [k: string]: {
-      description: string
-      name: string
-      [k: string]: unknown
-    }
-  }
   version: {
     major: number
     minor: number

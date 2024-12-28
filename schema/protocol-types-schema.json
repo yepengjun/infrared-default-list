@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "types": {
+      "additionalProperties": {
+        "properties": {
+          "description": { "type": "string" },
+          "name": { "type": "string" }
+        },
+        "required": ["description", "name"],
+        "type": "object"
+      },
+      "type": "object"
+    },
+    "version": {
+      "properties": {
+        "major": { "type": "integer" },
+        "minor": { "type": "integer" },
+        "patch": { "type": "integer" }
+      },
+      "required": ["major", "minor", "patch"],
+      "type": "object"
+    }
+  },
+  "required": ["types", "version"],
+  "type": "object"
+}
