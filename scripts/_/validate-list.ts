@@ -2,7 +2,7 @@ import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 
 import type { GaugeListSchema } from '@/types/gauge-list'
-import type { ProtocolTypesSchema } from '@/types/protocol-types'
+import type { GaugeTypesSchema } from '@/types/gauge-types'
 import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokenListSchema } from '@/types/token-list'
 import type { ValidatorListSchema } from '@/types/validator-list'
@@ -18,7 +18,7 @@ export const validateList = ({
   errors: Array<string>
   list:
     | GaugeListSchema
-    | ProtocolTypesSchema
+    | GaugeTypesSchema
     | ProtocolsSchema
     | TokenListSchema
     | ValidatorListSchema
